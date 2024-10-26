@@ -1,0 +1,7 @@
+runtime: nodejs18
+env_variables:
+  DB_HOST: "34.41.1.10"  
+  DB_NAME: "bd_gestion"
+  DB_USER: "root"
+  DB_PASSWORD: "BaseRainier"
+
