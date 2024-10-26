@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "server.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "DB_HOST": "34.41.1.10", 
+      "DB_NAME": "bd_gestion",
+      "DB_USER": "root",
+      "DB_PASSWORD": "BaseRainier"
+    }
+  }
+  
