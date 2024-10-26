@@ -1,6 +1,6 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
-const Proyecto = require('./Proyecto'); // Asegúrate de tener este modelo para la relación
+const Proyecto = require('./Proyecto'); 
 
 const Plan_Pruebas = sequelize.define('Plan_Pruebas', {
   nombre: {
@@ -13,7 +13,7 @@ const Plan_Pruebas = sequelize.define('Plan_Pruebas', {
     defaultValue: DataTypes.NOW,
   }
 }, {
-  timestamps: false, // Agrega createdAt y updatedAt
+  timestamps: false, 
 });
 
 // Relacionar con Proyecto

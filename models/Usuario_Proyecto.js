@@ -18,8 +18,8 @@ const UsuarioProyecto = sequelize.define('UsuarioProyecto', {
       }
     }
   }, {
-    tableName: 'Usuario_Proyectos', // Aquí especificamos el nombre exacto de la tabla
-    timestamps: false // Si no usas createdAt/updatedAt, desactiva timestamps
+    tableName: 'Usuario_Proyectos', 
+    timestamps: false 
   });
   
   module.exports = UsuarioProyecto;
